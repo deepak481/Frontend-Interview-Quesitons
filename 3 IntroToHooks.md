@@ -4,6 +4,13 @@
 - **Purpose:** Enable access to features like lifecycle methods, state management, and side effects in functional components without using classes.
 - **Benefits:** Cleaner, maintainable, and reusable code.
 
+### Hook Rules
+There are 3 rules for hooks:
+
+- Hooks can only be called inside React function - components.
+- Hooks can only be called at the top level of a component.
+- Hooks cannot be conditional
+
 ### Function Components with Hooks
 - **Advantages:**
   - Promote cleaner and more maintainable code.
@@ -156,3 +163,5 @@ function MyComponent() {
 ### Conclusion
 - Hooks simplify and enhance state management in React components.
 - They promote a cleaner, more readable, and easier-to-understand codebase compared to traditional class-based approaches.
+
+
